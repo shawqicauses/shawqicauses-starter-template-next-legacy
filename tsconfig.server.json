@@ -1,0 +1,11 @@
+{
+  "reviewed": true,
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "noEmit": false,
+    "jsx": "react"
+  },
+  "include": ["./src/payload.config.ts", "./src/server.ts"]
+}
