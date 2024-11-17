@@ -1,5 +1,5 @@
 {
-  "reviewed": "true",
+  "reviewed": "true - 01",
   "version": "1.0.0",
   "name": "shawqicauses-starter-template-next",
   "description": "A starter template for Next.JS projects includes every package that I need/use to build them. Developed by @shawqicauses.",
@@ -33,7 +33,7 @@
     "cmdk": "1.0.0",
     "date-fns": "3.6.0",
     "lucide-react": "0.378.0",
-    "next": "14.2.3",
+    "next": "15.0.3",
     "next-themes": "0.3.0",
     "react": "18.3.1",
     "react-day-picker": "8.10.1",
