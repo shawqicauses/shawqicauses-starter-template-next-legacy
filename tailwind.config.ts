@@ -1,13 +1,13 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT - 01
 
 /* eslint import/no-extraneous-dependencies: "off" */
 
 import tailwindCSSForms from "@tailwindcss/forms"
 import typographyPlugin from "@tailwindcss/typography"
-import { type Config } from "tailwindcss"
+import {type Config} from "tailwindcss"
 import tailwindCSSAnimate from "tailwindcss-animate"
 import colors from "tailwindcss/colors"
-import { parseColor } from "tailwindcss/lib/util/color"
+import {parseColor} from "tailwindcss/lib/util/color"
 import plugin from "tailwindcss/plugin"
 import typographyStyles from "./src/styles/typography"
 
