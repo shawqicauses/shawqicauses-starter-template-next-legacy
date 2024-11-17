@@ -1,8 +1,8 @@
 "use client"
 
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT - 01
 
-import trpc from "../../client"
+import trpc from "../../client/trpc"
 
 const TRPCBasic = function TRPCBasic() {
   const {isLoading, isError, data, error} = trpc.userRouter.userList.useQuery()
