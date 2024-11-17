@@ -4,12 +4,12 @@
 
 import tailwindCSSForms from "@tailwindcss/forms"
 import typographyPlugin from "@tailwindcss/typography"
-import {type Config} from "tailwindcss"
+import { type Config } from "tailwindcss"
 import tailwindCSSAnimate from "tailwindcss-animate"
 import colors from "tailwindcss/colors"
-import {parseColor} from "tailwindcss/lib/util/color"
+import { parseColor } from "tailwindcss/lib/util/color"
 import plugin from "tailwindcss/plugin"
-import typographyStyles from "./styles/typography"
+import typographyStyles from "./src/styles/typography"
 
 export const toRGB = function toRGB(value: string): string {
   return parseColor(value).color.join(" ")
