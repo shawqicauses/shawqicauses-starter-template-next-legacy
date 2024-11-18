@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT - 01
 import dotenv from "dotenv"
 import path from "path"
 import type {Payload} from "payload"
@@ -25,13 +25,13 @@ if (!cached) {
 }
 
 interface Args {
-  initOptions?: InitOptions
   seed?: boolean
+  initOptions?: Partial<InitOptions>
 }
 
 export const initPayload = async function initPayload({
-  initOptions,
-  seed
+  seed,
+  initOptions
 }: Args = {}): Promise<Payload> {
   const secret = process.env.PAYLOAD_SECRET
   if (!secret) throw new Error("PAYLOAD_SECRET environment variable is missing.")
