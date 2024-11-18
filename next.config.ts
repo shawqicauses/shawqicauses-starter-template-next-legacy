@@ -1,5 +1,7 @@
-// DONE REVIEWING: GITHUB COMMIT - 01
+// DONE REVIEWING: GITHUB COMMIT - 02
 /** @type {import("next").NextConfig} */
+
+require("dotenv").config()
 
 const nextConfig = {
   reactStrictMode: true,
