@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT - 02
+// DONE REVIEWING: GITHUB COMMIT - 03
 /** @type {import("next").NextConfig} */
 
 require("dotenv").config()
@@ -15,7 +15,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: process.env.NEXT_PUBLIC_APPLICATION_DOMAIN,
+        hostname: process.env.APPLICATION_DOMAIN,
         pathname: "**"
       }
     ]
