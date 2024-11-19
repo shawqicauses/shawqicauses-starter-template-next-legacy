@@ -1,5 +1,5 @@
 {
-  "reviewed": "true - 03",
+  "reviewed": "true - 04",
   "version": "1.0.0",
   "name": "shawqicauses-starter-template-next",
   "description": "A starter template for Next.JS projects includes every package that I need/use to build them. Developed by @shawqicauses.",
@@ -14,9 +14,6 @@
   },
   "dependencies": {
     "@hookform/resolvers": "3.4.0",
-    "@payloadcms/bundler-webpack": "1.0.7",
-    "@payloadcms/db-mongodb": "1.7.3",
-    "@payloadcms/richtext-slate": "1.5.2",
     "@radix-ui/react-alert-dialog": "1.0.5",
     "@radix-ui/react-avatar": "1.1.0",
     "@radix-ui/react-dialog": "1.1.0",
@@ -40,7 +37,6 @@
     "lucide-react": "0.378.0",
     "next": "15.0.3",
     "next-themes": "0.3.0",
-    "payload": "2.30.4",
     "react": "18.3.1",
     "react-day-picker": "8.10.1",
     "react-dom": "18.3.1",
